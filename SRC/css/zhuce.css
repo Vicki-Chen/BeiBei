@@ -1,0 +1,139 @@
+#dl-header{
+    background-color: #fff;
+    padding-top: 45px;
+}
+#dl-header img:nth-child(1){
+    float: left;
+}
+#dl-header img:nth-child(2){
+    float: right;
+}
+#dl-main{
+    padding: 110px 0;
+}
+#dl-main > .container > div:nth-child(1){
+    float: left;
+}
+#zhuce{
+    float: right;
+    width: 400px;
+    /* height: 460px; */
+    box-sizing: border-box;
+    padding: 60px 35px;
+    position: relative;
+    border: 1px solid #eee;
+    border-top: 3px solid #ff4965;
+}
+#zc{
+   margin-bottom: 30px; 
+}
+#zc > span{
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+#zc div{
+    float: right;
+}
+#zc div span{
+    font-size: 14px;
+    color: #000;
+}
+#zc div a{
+    color: #ff5482;
+}
+#phone,
+#password{
+    width: 330px;
+    height: 40px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.icon-zhanghao00,
+.icon-mima,
+.icon-yanjing{
+    width: 16px;
+    height: 20px;
+    margin: 8px 0;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+.icon-yanjing{
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    cursor: pointer;
+}
+#yz-password,
+#yz-phone{
+    margin: 10px 0;
+}
+#phone input,
+#password input{
+    width: 280px;
+    height: 28px;
+}
+#mpanel2{
+    display: none;
+    position: absolute;
+    left: 35px;
+    top: 155px;
+    z-index: 10000;
+}
+#mpanel1{
+    margin: 20px 0;
+}
+#tijiao{
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    background: #ff4965;
+    font-size: 14px;
+    letter-spacing: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#shuoming{
+    font-size: 12px;
+}
+#shuoming span{
+    color: #ff4965;
+}
+#shuoming p{
+    margin-top: 15px
+}
+#shuoming p i{
+    vertical-align: middle;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    opacity: 0.5;
+    background: url(../img/jlt.png) no-repeat -29px 0;
+}
+#shuoming p i:nth-child(3){
+    background: url(../img/jlt.png) no-repeat -90px 0;
+}
+#shuoming p i:nth-child(5){
+    background: url(../img/jlt.png) no-repeat -150px 0;
+}
+#weishu{
+    position: absolute;
+    right: -30px;
+    top: 0;
+    background-color: #ff4965;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: none;
+    line-height: 25px;
+    text-align: center
+}

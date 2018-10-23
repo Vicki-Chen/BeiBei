@@ -1,0 +1,231 @@
+#gwc-main{
+    padding: 20px 0;
+    border-top: 3px solid;
+    background-color: #F2F4F6;
+}
+#gwc-head{
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    padding: 0 20px;
+}
+#gwc-head p{
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: 700;
+    float: left;
+    color: #A7A7A7;
+}
+#gwc-head div{
+    width: 340px;
+    height: 70px;
+    float: right;
+    background: url("../img/gwc.png") no-repeat 0 -88px;
+}
+#gwc-con{
+    background: #FEFEFE;
+    padding: 20px;
+}
+#quanxuan{
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 20px 0 10px;
+    line-height: 30px;
+    font-size: 14px
+}
+#quanxuan p{
+    float: right;
+}
+#quanxuan em{
+    display: inline-block;
+    margin: 0 60px;
+}
+#quanxuan b{
+    margin: 0 100px 0 40px;
+}
+#quanxuan p strong{
+    margin-left: 30px;
+}
+.ygdp{
+    margin: 15px 0;
+}
+#gwc-botton{
+    width: 930px;
+    height: 60px;
+    border:1px solid #ccc; 
+    padding: 0 20px;
+    background-color: #F3F3F3;
+    line-height: 60px;
+}
+#gwc-botton div{
+    float: right;
+}
+#gwc-botton div a{
+    display: inline-block;
+    font-size: 14px;
+    background: #ff5482;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 15px 0;
+    text-align: center;
+    width: 120px;
+    vertical-align: top;
+}
+#gwc-botton div em{
+    color: #ff5482;
+}
+#gwc-botton div b{
+    color: #ff5482;
+    font-size: 30px
+}
+#gwc-botton span{
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ygdp{
+    border: 1px solid #ccc;
+    background-color: #FAFAFA;
+    font-size: 14px;
+    color: #888;
+}
+.dianming{
+    line-height: 40px;
+    padding: 0 20px;
+    height: 40px;
+    border-bottom:1px solid #ccc;
+    background-color: #F4F4F4;
+}
+ .ygdp{
+    background-color: #fefefe;
+}
+.ygdp li{
+    height: 102px;
+    border-bottom: 1px solid #ccc;
+}
+.ygdp li div{
+    float: left;
+}
+.one{
+    width: 84px;
+    line-height: 102px;
+    box-sizing: border-box;
+    padding-left:  60px;
+}
+
+.two{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.two img{
+    display: block;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+}
+.three{
+    padding: 15px 0;
+    box-sizing: border-box;
+    width: 164px;
+}
+.four{
+    padding: 15px 0;
+    width: 130px;
+}
+.four p{
+    margin-bottom: 8px;
+}
+.four s{
+    font-size: 12px;
+    text-decoration: line-through
+}
+.five p{
+    padding-top: 10px
+}
+
+.five p input {
+    width: 30px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #ccc; 
+}
+.five p span {
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+    background: #d8d8d8;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    padding: 0; 
+}
+.five p span::selection {
+    background: transparent; 
+}
+.ygdp li .six{
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.ygdp li .six span{
+    color: #ff5482;
+    margin-right: 40px;
+}
+
+#sp-list .xiaoji{
+    height: 50px;
+    line-height: 50px;
+    padding-right: 50px;
+    background-color: #FEFEFE;
+}
+
+#sp-list .xiaoji span{
+    display: inline-block;
+    float: right;
+    
+}
+#sp-list .xiaoji span b{
+    padding-left: 60px;
+    color: #ff5482;
+}
+.ygdp li .six s{
+    cursor: pointer;
+}
+#nothing{
+    height: 400px;
+    width: 100%;
+    background-color: #fefefe;
+    padding: 50px 300px;
+    box-sizing: border-box;
+    font-size: 16px
+}
+#nothing p:nth-child(1){
+    position: relative;
+}
+#nothing p:nth-child(2){
+    margin: 15px 0 30px 0;
+}
+#nothing i{
+    color: #ff5482;
+    position: absolute;
+    left: -50px;
+    top: -7px;
+    font-size: 30px;
+}
+#nothing p:nth-child(2) a{
+    color: blue;
+    font-size: 14px;
+    /* text-decoration: underline */
+}
+#nothing p:nth-child(3){
+    cursor: pointer;
+    font-size: 14px;
+} 
